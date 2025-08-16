@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@deco/mcp": "jsr:@deco/mcp@^0.7.3",
+    "@deco/mcp": "jsr:@deco/mcp@0.7.3",
     "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.120.10/",
     "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.114.13/",
     "$fresh/": "https://deno.land/x/fresh@1.7.3/",

@@ -11,14 +11,14 @@
     "content": "<p>A nova família do GPT-4.1 está EXTRAORDINÁRIA... e só dá pra usar pela API 😵‍💫 Mas se você quiser usar HOJE mesmo assim, sem ter que descobrir como codar, é só entrar no https://deco.chat.</p><p>Já temos o GPT-4.1, GPT-4.1.mini e o GPT-4.1.nano — além de todos os outros melhores modelos do mercado, como Claude, Google Gemini, Grok... e muitos mais por vir.</p><p>Não precisa pedir licença pro seu dev, na deco você pode criar agentes de AI sozinho, direto no chat. Experimenta e me diz o que você achou!</p><p>Marca aqui a sua amiga ou amigo que queria usar o 4.1 e não conseguiu 👇</p>",
     "slug": "7318024006538821632",
     "date": "2025-04-15",
-    "title": "",
+    "title": "Introducing GPT‑4.1 Models on deco.chat",
     "categories": [
       {
         "name": "LinkedIn",
         "slug": "linkedin"
       }
     ],
-    "excerpt": "",
+    "excerpt": "Announcing the new GPT‑4.1, GPT‑4.1.mini and GPT‑4.1.nano models available via API and instantly via deco.chat.",
     "interactionStatistic": {
       "@type": "InteractionCounter",
       "userInteractionCount": 88

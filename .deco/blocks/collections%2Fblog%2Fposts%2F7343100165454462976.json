@@ -11,14 +11,14 @@
     "content": "<p>Problema: os modelos de AI não sabem coisas muito básicas sem você informar, tipo, que dia é hoje! Quando você quer fazer um agente de IA que filtra datas relativas, por exemplo, ele precisa saber a data e hora atuais.</p><p>Hoje lançamos esse delicioso primeiro Prompt Dinâmico na nossa Prompt Library: o “now”, que inclui a data e hora atual UTC no momento da execução. Coisas tão simples mas que, fazendo agentes de IA no dia a dia, você sente falta.</p><p>Olha que irado! Praise Marcos Candeia que soltou essa que tava na minha wishlist!!!</p><p>Vou me esforçar pra compartilhar com vocês cada feature legal que a gente lança! Vai ser difícil porque tem muitas toda semana, mas vou conseguir!</p>",
     "slug": "7343100165454462976",
     "date": "2025-06-24",
-    "title": "",
+    "title": "Dynamic Prompt \"now\" Adds Real-Time UTC Timestamp",
     "categories": [
       {
         "name": "LinkedIn",
         "slug": "linkedin"
       }
     ],
-    "excerpt": "",
+    "excerpt": "Launch of the first dynamic prompt that injects the current UTC date and time into AI workflows.",
     "interactionStatistic": {
       "@type": "InteractionCounter",
       "userInteractionCount": 86

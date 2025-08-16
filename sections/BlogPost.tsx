@@ -91,11 +91,13 @@ export default function BlogPost({ page }: Props) {
           </div>
         </div>
       </div>
-      <Image
-        className="w-full object-cover aspect-video max-h-[600px] rounded-2xl"
-        width={600}
-        src={image || ""}
-      />
+      {image && (
+        <Image
+          className="w-full object-cover aspect-video max-h-[600px] rounded-2l"
+          width={600}
+          src={image}
+        />
+      )}
       <div
         class={CONTENT_STYLES}
         dangerouslySetInnerHTML={{

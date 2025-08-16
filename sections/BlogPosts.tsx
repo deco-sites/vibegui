@@ -58,12 +58,7 @@ export default function BlogPosts(
       pagination: { perPage, page: page + 1 },
     },
   });
-  function calculateReadingTime(words: number): string {
-    const wordsPerMinute = 250;
-    const estimatedTimeMinutes = words / wordsPerMinute;
-    const roundedReadingTime = Math.round(estimatedTimeMinutes);
-    return `${roundedReadingTime} min`;
-  }
+  // Reading time removed per request
   const ContainerComponent = page === 0 ? Container : Fragment;
   return (
     <ContainerComponent>
@@ -74,31 +69,37 @@ export default function BlogPosts(
               href={`/blog/${post.slug}`}
               class="border border-secondary overflow-hidden rounded-lg"
             >
-              <Image
-                width={380}
-                height={274}
-                class="object-fit w-full"
-                sizes="(max-width: 640px) 100vw, 30vw"
-                src={post.image || ""}
-                alt={post.image}
-                decoding="async"
-                loading="lazy"
-              />
+              {post.image && (
+                <Image
+                  width={380}
+                  height={274}
+                  class="object-fit w-full"
+                  sizes="(max-width: 640px) 100vw, 30vw"
+                  src={post.image}
+                  alt={post.image}
+                  decoding="async"
+                  loading="lazy"
+                />
+              )}
               <div class="p-6 space-y-4">
-                <div class="font-semibold">
-                  {calculateReadingTime(post.content.split(" ").length)}
-                </div>
                 <div class="space-y-2">
                   <h3 class="font-subtitle text-2xl">{post.title}</h3>
                   <p class="text-base">{post.excerpt}</p>
                 </div>
-                <div class="flex flex-wrap gap-2">
-                  {post.categories?.map((category) => (
-                    <div class="badge badge-lg badge-primary text-xs">
-                      {category.name}
-                    </div>
-                  ))}
-                </div>
+                {post.categories && post.categories.length > 0 && (
+                  <div class="flex flex-wrap gap-2">
+                    {post.categories
+                      ?.filter((category) =>
+                        (category?.name || "").toLowerCase() !== "linkedin" &&
+                        (category?.slug || "").toLowerCase() !== "linkedin"
+                      )
+                      .map((category) => (
+                        <div class="badge badge-lg badge-primary text-xs">
+                          {category.name}
+                        </div>
+                      ))}
+                  </div>
+                )}
                 <div class="flex flex-wrap gap-2">
                   <span>
                     {post.date

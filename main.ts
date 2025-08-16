@@ -8,13 +8,23 @@ import { mcpServer } from "@deco/mcp";
 const app = new Hono();
 const deco = await Deco.init<Manifest>({
   manifest,
-  bindings: HTMX({
-    Layout,
-  }),
+  bindings: {
+    ...HTMX({
+      Layout,
+    }),
+    useServer: (decoInstance, hono) => {
+      hono.use("/*", mcpServer<Manifest>(decoInstance, {
+        include: [
+          "site/loaders/mcp/UpsertBlogPost.ts",
+          "blog/loaders/BlogpostList.ts",
+          "blog/loaders/BlogPostItem.ts",
+          "blog/loaders/BlogPostPage.ts",
+          // allow default tools too
+        ],
+      }));
+    },
+  },
 });
-
-// Mount MCP server middleware
-app.use("/*", mcpServer(deco));
 
 // Proxy all routes to Deco
 app.all("/*", async (c) => {

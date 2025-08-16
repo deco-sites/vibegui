@@ -1,4 +1,5 @@
 import Image from "apps/website/components/Image.tsx";
+import Icon from "site/components/ui/Icon.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
 type Type = "dark" | "light";
@@ -48,9 +49,8 @@ const lineStyles = [
 
 export default function Haader({
   logo = {
-    src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
-    alt: "Logo",
+    src: "",
+    alt: "",
   },
   navigation = {
     links: [
@@ -68,9 +68,32 @@ export default function Haader({
   return (
     <nav class="container mx-auto lg:px-0 px-4">
       <div class="flex gap-8 items-center justify-between py-4">
-        <a href="/">
-          <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
-        </a>
+        <div class="flex items-center gap-4">
+          <a href="/" class="select-none">
+            <span class="font-hero text-3xl leading-none">vibe</span>
+            <span class="font-subtitle text-3xl leading-none">gui</span>
+          </a>
+          <div class="flex items-center gap-3">
+            <a
+              href="https://www.linkedin.com/in/vibegui/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              class="hover:opacity-80"
+            >
+              <Icon id="LinkedinOutline" width={20} height={20} />
+            </a>
+            <a
+              href="https://x.com/vibeguicode/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X/Twitter"
+              class="hover:opacity-80"
+            >
+              <Icon id="TwitterOutline" width={20} height={20} />
+            </a>
+          </div>
+        </div>
 
         <label
           class="cursor-pointer lg:hidden pt-6 relative z-40"

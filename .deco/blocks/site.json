@@ -6,12 +6,12 @@
     }
   ],
   "seo": {
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
+    "titleTemplate": "%s | vibegui.com",
+    "descriptionTemplate": "%s | vibegui.com",
     "type": "website",
-    "title": "Blog",
-    "description": "Improve your page performance with deco.cx",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/c8188deb-9ed0-4394-8ede-af8fb4263ba4",
+    "title": "vibegui.com — Guilherme Schatz Rodrigues",
+    "description": "Distinctions on vibeliving and vibecoding",
+    "image": "https://assets.decocache.com/vibegui/2c16e0b5-f72d-4f45-ae24-0fac175b9ff9/vnzs5Y4T_400x400.jpg",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/71c97b9c-b94a-4cf5-8120-4bb7b99b21bb"
   },
   "global": [
