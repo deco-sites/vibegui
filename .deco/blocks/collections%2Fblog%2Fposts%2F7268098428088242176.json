@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7268098428088242176",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Viemos pra João Pessoa com o time de engenharia da deco.cx pra fazer nossa virada de Black Friday. Há 10 anos atrás, a virada de quinta pra sexta era uma LOUCURA, com uma parede de tráfego súbita. Hoje já é menos emocionante e o clima aqui tá tranquilo. Enquanto isso, já rolou um mergulho na praia (de agua quente pra quem não sabe 😁), altinha e um jantar excepcional.</p><p>Se depender desse time, a tecnologia no Brasil tem um futuro brilhante.</p><p>Luciano Júnior Rafael Crespo Tiago Gimenes Marcos Candeia Ígor Brasileiro Duarte Jose Miguel Noblecilla Vinicius Trindade Vitor Ribeiro Matheus Gaudencio do Rêgo Igor Arthur Guilherme Tavano Viktor Marinho Pereira Héricles Emanuel Hugo Cavalcanti Cabral Pedro França</p>",
+    "slug": "7268098428088242176",
+    "date": "2024-11-29",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 534
+    }
+  }
+}

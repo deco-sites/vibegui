@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7308845710781681665",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>\"Rapaz, no mundo novo você não tem que planejar a UI de email, o Agente tem acesso a ferramenta de mandar email e você pede pra mandar. Acabou!\"</p><p>E com essa frase o Marcos Candeia pivotou nossa empresa inteirinha na semana passada. Va lá, não é exatamente preciso isso, mas é quase. A gente tava muito aficcionado nos \"AI Apps\", que são fantásticos, de fato. Mas depois que pulamos na piscina dos Agentes com acesso a MCPs — integrando com qualquer fonte de dados como Google Drive, bancos, ERPs, plataformas de ecommerce... Não tem como desver.</p><p>O novo mundo vai ser construído em termos de Agentes que nós educamos a fazer determinados trabalhos, conectamos com dados e alocamos capital para executar as tarefas necessárias.</p><p>O novo jogo é sobre a *colaboração* entre humanos e Agentes. Agentes vão fazer de tudo, desde escrever código até propor copy até criar planilhas sofisticadas até fazer análise de dados... realmente, não tem fim.</p><p>Nesse novo mundo, vão ter Agentes especialistas maravilhosos, e você vai poder \"contratar eles\" por aqui. Mas também vai poder FAZER seus próprios agentes, usando uma simples interface de chat, conectado com todos os seus dados. Quanto mais usamos os agentes, mais a gente fica impressionado.</p><p>Estou muito feliz com a demanda absurda que surgiu assim que fizemos esse anúncio. Mas com a humildade que estamos apenas tateando um novo universo. Vai ser muito divertido construí-lo junto com vocês!</p>",
+    "slug": "7308845710781681665",
+    "date": "2025-03-21",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 115
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7252827208711331841",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>For every prior paradigm shift that technology has enabled, Brazilians (and the global South) were resigned to watch from afar, wait years or months for it to arrive in our shores (who else here was privileged enough, in the 90's, to buy a Voodoo graphics card... 5 years after it was released?) and wonder, how amazing they must be, the superior beings who were not users, but CREATORS of this technology — a role decidedly out of our distant reach.</p><p>Wait, watch, and wonder... No more.</p><p>The world has evolved. The barriers have melted. I can walk into a store in Rio and buy a new gadget the next day it is globally launched. We can provide ultra-capable, ultra-portable laptops to students at competitive prices.</p><p>The AI paradigm shift and all the races that it entails — most importantly SOFTWARE THAT BUILDS SOFTWARE — will not be a sole privilege of the global North. For the first time in history, the global South is now playing.</p><p>This time, Brazilian entrepreneurs have an honest-to-god chance of competing head-to-head with the so-called \"developed world\". And they are very fucking excited about winning this round.</p><p>I swear: you have no idea what's coming with this generation of Brazilian startups. I am meeting founders every day and — well, just wait... and watch!</p>",
+    "slug": "7252827208711331841",
+    "date": "2024-10-18",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 120
+    }
+  }
+}

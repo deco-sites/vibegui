@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7297729453160382464",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Aqui é Brasil! Ayrton Senna! Vota vota vota no comentario!</p>",
+    "slug": "7297729453160382464",
+    "date": "2025-02-18",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 123
+    }
+  }
+}

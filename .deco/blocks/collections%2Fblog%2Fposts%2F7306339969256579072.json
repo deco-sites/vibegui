@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7306339969256579072",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Hoje eu vou dar aula na Pontifícia Universidade Católica do Rio de Janeiro pela primeira vez na vida, graças ao carinhoso convite do excelente Hélio Côrtes Vieira Lopes. Muito obrigado!</p><p>Nós vamos lecionar esse semestre o curso “Gerando Startups por AI”, uma mistura de Liderança e Comunicação em Alto Desempenho com Inteligência Artifical Aplicada e 22 Laws of Category Design.</p><p>O objetivo vai ser que todos os alunos façam o seu primeiro real online, vendendo algo com AI. Nós vamos mostrar que AI cria novas possibilidades de empreender e gerar valor. E vamos criar o ferramental para que os alunos participem dessa revolução.</p><p>Anexei aqui o formato do curso e uma palhinha da aula 1 e eu quero saber: se eu desse esse curso online, você participaria?</p>",
+    "slug": "7306339969256579072",
+    "date": "2025-03-14",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 199
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7264771955550015488",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Should I work at a Startup or Big Tech?<br>Actually, it's not a binary choice. It's a spectrum. And it depends on some factors.<br>- Are you willing to accept the risk that your work never materializes and you have to start over? Or you want to be sure that you will progress, year in, year out?<br>- Are you willing to commit the majority of your time and prioritize work over other life aspects? (Specifically because you really love the CRAFT of your work and the FUTURE you are building.) Or do you think that people who work on holidays are total idiots?<br>- Do you prefer to decide for yourself on what to work, how fast, how often to ship? Or do you prefer someone managing your workload and giving you the right amount of tasks and ensuring you're not going to burnout, and that your career is progressing?</p><p>None of those are loaded questions, and I half-jokingly came up with them during this half an hour I was recording this video. Everyone is different and there are many subtleties for where to work and when. Don't take this seriously.</p><p>Just make sure you're having a lot of fun, because life is short and absolutely unpredictable 👋</p>",
+    "slug": "7264771955550015488",
+    "date": "2024-11-19",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 120
+    }
+  }
+}

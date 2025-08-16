@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7246586550057136129",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Em algum momento vocês vão ouvir falar sobre esse fim de semana. Eu só digo uma coisa: nasceu, no Brasil, o disruptivo da YCombinator, e se chama \"Future Driven\". Dizer que isso é um \"disruptivo\" é ousado (e cringe), eu sei. Mas é que temos uma tecnologia de comunicação realmente única e uma capacidade de atrair talentos excepcionais, bem, excepcional. Juntando isso com nosso compromisso extraordinário com um futuro além do previsível para o Brasil, nós inventamos uma fábrica de pessoas irrazoáveis. Só quem sabe, sabe! Obrigado Mari Monteiro Mariana Gomes e Rafael Crespo por toparem esse experimento maluco. O problema agora é que \"the genie doesn't go back into the bottle!\" — problema bom!</p>",
+    "slug": "7246586550057136129",
+    "date": "2024-09-30",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 267
+    }
+  }
+}

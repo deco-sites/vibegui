@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7270425110925234177",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Toda comunicação violenta (ou sarcástica) esconde uma pessoa frustrada com algo que ocorre como uma grande ameaça para si.</p><p>Quando eu fico puto com algo que aconteceu na empresa e reajo com o meu time, eu estou meramente externalizando a frustração de me perceber falhando (e obrigando os outros a pagarem por isso).</p><p>Afinal, eu só fico puto quando algo está blatantemente desalinhado do nosso futuro declarado. Mas quem colocou o nosso futuro ali, em última instância, fui eu mesmo. Quem colocou o time ali, em ultima instância, fui eu. Quem criou as conversas e os vieses de como o time opera, adivinhem.. fui eu.</p><p>Então, se algo não esta funcionando… todas as setas do ppt apontam pra mim. Ocorre, dentro da minha cabeça, como uma ameaça à minha identidade de líder, de empreendedor e de desenvolvedor de produto.</p><p>A “solução” contra-intuitiva pra escapar dessa armadilha, eu descobri, é: ACEITAR A POSSIBILIDADE DE FALHAR. Ou seja, ao ver algo quebrado, ao invés de achar inadmissível e proibido (eu falhar), achar curioso e instigante: “uau! Com esse time maravilhoso e meus melhores esforços, eu falhei. Vamos descobrir por que…”</p><p>Pronto, já gera uma liberdade imensa pra lidar com o que não está funcionando de forma pragmática e não abduzir ninguém. No final, é tudo ego. Reação violenta sempre é o ego se defendendo. A verdadeira liberdade, que gera serenidade e empatia, é aceitar de coração cheio: eu sou um idiota, eu falho e vou falhar. Todo mundo está dando o seu melhor, inclusive eu. Agora vamos trabalhar.</p><p>PS: apesar de ter clareza dessa distinção, isso está longe de querer dizer que eu seja imune à abduzir de vez em quando… como bem sabe meu time 🥲 🙏</p>",
+    "slug": "7270425110925234177",
+    "date": "2024-12-05",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 94
+    }
+  }
+}

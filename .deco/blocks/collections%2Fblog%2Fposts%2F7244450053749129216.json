@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7244450053749129216",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>O começo de algo gigante para o Brasil, só podia vir de duas mulheres ousadas e comprometidas com o futuro como a Mariana Gomes e a Mari Monteiro.</p><p>Primeiro programa de aceleração de startups deep tech no Brasil, pegando na veia do problema: como atrair o talento TÉCNICO Brasileiro para empreender no Brasil? Começa colocando um grupo de pessoas excepcionais numa sala e perguntando: que futuro vocês querem construir?</p><p>Esse fim de semana vai ser apenas o primeiro de muitos! É o começo do maior pipeline de co-founders técnicos do Brasil.</p><p>Link da matéria nos comentários.</p>",
+    "slug": "7244450053749129216",
+    "date": "2024-09-24",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 489
+    }
+  }
+}

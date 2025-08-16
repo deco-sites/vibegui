@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7258621520279654401",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>A melhor parte de ser obcecado é observar quem te subestimou se decepcionar com o tempo. 🤫</p><p>Eu adoro quando conto pra alguém nosso plano de longo prazo pra acelerar a transformação do Brasil em um país protagonista em Tecnologia.</p><p>A maioria das pessoas ri e acha inconsequente, talvez uns 10% arregalam os olhos e se dão conta que é possível e nós o estamos fazendo.</p><p>“Resultados não precisam ser explicados. Eles apenas são.” — Werner Erhard</p>",
+    "slug": "7258621520279654401",
+    "date": "2024-11-03",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 199
+    }
+  }
+}

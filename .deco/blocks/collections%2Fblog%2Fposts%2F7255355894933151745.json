@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7255355894933151745",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>MOST SOFTWARE ENGINEERS DON'T CARE ABOUT EQUITY!<br>Which is crazy because that's the absolute fastest path for them to get rich within their 20s and 30s.<br>So I built this long term compensation calculator to help people materialize what does it mean to meaningfully participate in building a multi-billion dollar business.<br>I built this over a busy afternoon in between calls using https://webdraw.ai</p><p>The results are amazing! This is literally pre-alpha software and I'm hooked, my email and whatsapp inbox is flooded (sorry!) because I want to webdraw all of the time and answer emails none of the time.</p><p>This is gonna be fun! Join us in the waitlist, ask around and you can get an invite! https://webdraw.ai</p>",
+    "slug": "7255355894933151745",
+    "date": "2024-10-25",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 178
+    }
+  }
+}

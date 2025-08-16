@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7242549063349354496",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Você gostaria de ir num evento com esses mentores e nesse local lindo? Pra essa não dá mais, mas fala comigo se você é pessoa desenvolvedora e está aberta a empreender no futuro. Vamos acelerar esse futuro ;)</p>",
+    "slug": "7242549063349354496",
+    "date": "2024-09-19",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 95
+    }
+  }
+}

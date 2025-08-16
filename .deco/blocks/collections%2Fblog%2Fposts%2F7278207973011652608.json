@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7278207973011652608",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Eu acho que não preciso mais postar aqui no Linkedin. Eu fiz uma AI que corretamente prevê os comentários ultra-polarizados (e caricatos) que eu vou receber de cada um dos lados. É perfeito.</p><p>Eu botei o meu post sobre 70 anos atrasados e batata: a esquerda reclamou que não devia ter carro, devia ter transporte público! (O que é muito bem intencionado, etc, mas misses the point... os países ricos têm os dois.)</p><p>E aí vocês também querem um gerador de comentário polarizado? Pode poupar o esforço de postar, ou também pode ser usado pra gerar um comentário pra você. Só escolher o seu lado, copiar, colar, e ser feliz!</p>",
+    "slug": "7278207973011652608",
+    "date": "2024-12-27",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 126
+    }
+  }
+}

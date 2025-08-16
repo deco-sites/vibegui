@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7244102916599431169",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>These are going to be pretty crazy months. We've just had a massive distinction at deco.cx. We noticed a huge opportunity. And we believe we are well positioned as a company to deliver on it. We've built a world-class web platform, and we're now going to make it accessible to a thousand times more people thanks to AI-powered drawing tools. We are really enthusiastic about it. The team is on fire. This is going to accelerate the world. Enterprise-grade custom web software will be as easy as drawing!</p><p>We're building the world's first full-range AI-native IDE. From lo-fi (drawing) to hi-fi (coding), in the same tool, for everyone. You \"write code\" by drawing in a multi-modal canvas directly integrated with AI. It works on top of ANY existing git repository. And it can deploy your code to the internet! How cool is that?</p><p>You learned to draw before you learned to write. Why shouldn't it be the same for web software? This was the missing link to onboard billions of new web developers. Or web drawvelopers.</p>",
+    "slug": "7244102916599431169",
+    "date": "2024-09-23",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 103
+    }
+  }
+}

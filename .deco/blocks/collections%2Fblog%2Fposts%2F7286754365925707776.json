@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7286754365925707776",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>PARA TUDO! Olha esse serviço que genial: leavemealone.com. Você conecta sua conta de email e ele acha as mailing lists pra você unsubscribe com um click 😭 onde isso esteve toda a minha vida???</p>",
+    "slug": "7286754365925707776",
+    "date": "2025-01-19",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 284
+    }
+  }
+}

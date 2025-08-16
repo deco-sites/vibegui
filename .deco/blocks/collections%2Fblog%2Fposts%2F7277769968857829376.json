@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7277769968857829376",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>What a great year! I wanted to recap 2024 at deco.cx and share what we've built, what we've discovered, and where we're going now. If you were a part of this year in any way, shape or form, I want to thank you very much and promise you that 2025 will be even better! We have some amazing things cooking for both deco.cx and webdraw.com... and in 2025 we'll be shipping even faster!!</p>",
+    "slug": "7277769968857829376",
+    "date": "2024-12-25",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 97
+    }
+  }
+}

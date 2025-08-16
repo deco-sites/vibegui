@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7248011051064029184",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>I’m happy to share that I’m starting a new position as Drawveloper @ Webdraw.ai – the World’s First AI Canvas IDE at deco.cx! Join the waitlist at https://webdraw.ai</p>",
+    "slug": "7248011051064029184",
+    "date": "2024-10-04",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 195
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7268735735988436992",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Não existe certo e errado universal. Se você está indeciso sobre ir pra uma startup (e de qual estágio) ou pra uma empresa estabelecida, depende de muita coisa. Mas são três critérios principais, na minha opinião:</p><p>- Seu apetite pra risco<br>- Sua propensão a trabalhar mais que o \"normal\"<br>- Sua necessidade de gerenciamento</p><p>Se você tem algum(a) amigo(a) que está em dúvida, essa visualização interativa pode ajudar. Manda pra eles!</p><p>Você pode brincar com esse app aqui: https://lnkd.in/d9D8tadD (clique no botão verde \"Open App\")</p>",
+    "slug": "7268735735988436992",
+    "date": "2024-11-30",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 198
+    }
+  }
+}

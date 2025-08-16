@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7269051353249816577",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Essas fiações expostas destroem a beleza do nosso Rio de Janeiro. Eu quero contratar um fotógrafo AI-friendly pra fazermos um projetinho. Fotos de lugares lindos, mas arruinados pela fiação. Antes e depois (removido com AI e retoques manuais). Marca aí a/o fotográfa/o carioca que curtiria esse job!</p>",
+    "slug": "7269051353249816577",
+    "date": "2024-12-01",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 92
+    }
+  }
+}

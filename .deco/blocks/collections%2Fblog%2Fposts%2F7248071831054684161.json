@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7248071831054684161",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Se você quer um cara foda pra seguir hoje, segue o Luis Silva. Esse é visionário. Não por acaso a CloudWalk, Inc. é uma das empresas *globais* de tech mais bem-sucedidas nascidas no Brasil.</p>",
+    "slug": "7248071831054684161",
+    "date": "2024-10-04",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 102
+    }
+  }
+}

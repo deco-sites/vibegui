@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7354249066018390022",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Que maravilha nosso novo README! Estamos fazendo o SDK open-source pra acelerar massivamente o mercado de agentes de AI no Brasil e no mundo - o que vai gerar muita renda para muita gente.</p><p>Todo mundo pode pegar nosso código, hostear seus agentic workflows no Cloudflare com escala infinita, e ganhar dinheiro aplicando AI em processos na vida real.</p><p>Se você quer apoiar uma plataforma open-source BRASILEIRA a dar certo, compartilha com os seus amigos devs, techs, PMs e designers, pra nos darem uma ⭐ estrela no GitHub! github.com/deco-cx/chat</p><p>Também estamos montando um curso de Agentic Engineer, se você quiser participar, só se inscrever no deco.camp!</p>",
+    "slug": "7354249066018390022",
+    "date": "2025-07-24",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 109
+    }
+  }
+}

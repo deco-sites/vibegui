@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7275661991506042882",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Today we hosted our first \"Draw in\" event — obviously, in our hometown — Draw in Rio, at the amazing Instituto 12 space in the heart of Leblon.</p><p>Thank you very much for everyone that attended! We were _genuinely_ surprised with the amazing AI apps that you have created.</p><p>If you didn't manage to come, don't worry! Our next event, Draw in Sampa, will be announced very soon. Please comment here if you'd like to reserve your spot!</p><p>Immense praise to Maria Cecilia Marques and Giulia L. who pulled this event out of thin air in about 2 weeks — full with sponsorship and crowded with amazing people. You girls rock! I can't wait to announce our big AI event... 🤫</p><p>And as usual, you can take a look at all of the published apps in our community: https://lnkd.in/d889Fgjd</p>",
+    "slug": "7275661991506042882",
+    "date": "2024-12-20",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 80
+    }
+  }
+}

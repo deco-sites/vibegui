@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7261473708639219712",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Você acredita que o 🇧🇷 Brasil é mais \"eficiente\" em quantidade de desenvolvedores na economia que os 🇺🇸 Estados Unidos?</p><p>Pois é, eu fui dar uma olhada nos dados de número de contas no GitHub por país (um bom proxy do numero de devs ativos naquele mercado) e tive uma grata surpresa. O Brasil é o segundo maior mercado de devs do Ocidente. Aposto que você não sabia disso! Maior que Alemanha, Reino Unido e França. Só perde pros EUA mesmo.</p><p>Acontece que ... você já viu o PIB per Capita dos EUA e do Brasil? Vou te contar, o dos EUA é 7x maior. Pois é, sete vezes mais \"dinheiro por indivíduo\" rolando na sociedade. Agora junta as duas coisas e ... conclusão muito interessante: o Brasil tem uma proporção de \"desenvolvedores por PIB per Capita\" absurdamente alta. Isso significa que nós temos muito mais \"devs ativos\" na economia global do que nós \"deveríamos\" em relação a potência da nossa economia, mais do que os Americanos, Alemães, Franceses...</p><p>Bom domingo, e boa sorte pra você que tá raising e conversando com VCs vira-latas que acham que o Brasil não pode produzir unicórnios em mercados globais. Não esquenta com eles! Se quiser bater um papo pra ajuda nesse processo, estamos sempre aqui pra ajudar founders.</p><p>E claro, se quiser explorar dados assim também, se inscreve pro beta do Webdraw: https://webdraw.ai</p>",
+    "slug": "7261473708639219712",
+    "date": "2024-11-10",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 184
+    }
+  }
+}

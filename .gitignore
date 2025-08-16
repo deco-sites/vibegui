@@ -78,3 +78,5 @@ _fresh/
 _docker_deps.ts
 .metadata/*
 .deco/metadata/*
+dataset_linkedin-profile-posts_2025-08-16_16-44-33-648.json
+.temp

@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7261709490469683201",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Eu ODEIO quando alguém faz review de software Brasileiro e diz, estupefato, que \"bate de frente\" com ferramentas gringas. É sério? Você esperava que batesse de lado? Ou que fosse pior? Quantas décadas mais até o Brasileiro parar de ASSUMIR que o produto Brasileiro é inferior? Quantos séculos até assumir o contrário? </rant></p><p>Bom dia.</p>",
+    "slug": "7261709490469683201",
+    "date": "2024-11-11",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 454
+    }
+  }
+}

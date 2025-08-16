@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7273405031800848386",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>70 anos atrasados.</p><p>Enquanto o Elon Musk está criando uma cidade chamada “Starbase, Texas”, o Brasil vende a mesma quantidade de veículos que os Estados Unidos vendiam na década de 50.</p><p>Você devia empreender em qualquer coisa que você se interessa. Pensa assim: tem 70 anos de crescimento pra executar, agora. Tem simplesmente muita coisa atrasada e ineficiente. Vamos acelerar!</p>",
+    "slug": "7273405031800848386",
+    "date": "2024-12-13",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 179
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/7271200698954862592",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Guilherme Rodrigues",
+        "email": ""
+      }
+    ],
+    "content": "<p>Founders LATAM que estão levantando capital com VC's institucionais (pre-Seed, Seed e Series A): nós queremos te ajudar! Da uma olhada no Pitch Draw. É um convite aberto pra um encontro semanal onde eu, Rafael Crespo, Luciano Júnior, Jose Miguel Noblecilla e Bruno Kuntz damos conselhos baseado nas porradas que já tomamos fazendo pitch deck.</p><p>Link pra se inscrever aqui nos comentários!</p>",
+    "slug": "7271200698954862592",
+    "date": "2024-12-07",
+    "title": "",
+    "categories": [
+      {
+        "name": "LinkedIn",
+        "slug": "linkedin"
+      }
+    ],
+    "excerpt": "",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "userInteractionCount": 120
+    }
+  }
+}
