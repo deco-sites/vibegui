@@ -26,8 +26,8 @@ const PLACEMENT = {
 };
 
 export default function HeroFlats({
-  title = "Click here to tweak this text however you want.",
-  description = "This text is entirely editable, tailor it freely.",
+  title = "Context is everything",
+  description = "Distinctions on vibe living in the post-AI era.",
   image,
   placement = "left",
   cta,
@@ -61,13 +61,13 @@ export default function HeroFlats({
             }`}
           >
             <div
-              class="font-medium inline-block leading-[100%] lg:text-[90px] text-4xl tracking-[-2.4px]"
+              class="font-hero font-medium inline-block leading-[100%] lg:text-[90px] text-4xl tracking-[-2.4px]"
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
             >
             </div>
-            <p class="leading-[150%] md:text-md text-lg">
+            <p class="font-subtitle leading-[150%] md:text-md text-lg italic">
               {description}
             </p>
             {cta && cta.length > 0 &&

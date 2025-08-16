@@ -62,7 +62,7 @@ export default function MainPost({
           )}
           <div class="p-6 space-y-4">
             <div class="space-y-2">
-              <h3 class="text-2xl">{post?.title}</h3>
+              <h3 class="font-subtitle text-2xl">{post?.title}</h3>
               <p class="text-base">{post?.excerpt}</p>
             </div>
             <div class="flex flex-wrap gap-2">

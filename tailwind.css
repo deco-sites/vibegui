@@ -5,7 +5,7 @@
 @layer base {
   /* Allow changing font family via CMS */
   html {
-    font-family: var(--font-family);
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
   /** Remove default styles from input[type=number] */
@@ -37,6 +37,13 @@
 }
 
 @layer utilities {
+  /* Font utility classes */
+  .font-hero {
+    font-family: 'Pixelify Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  .font-subtitle {
+    font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  }
   /** Remove scrollbar from overflow-auto */
   .scrollbar-none {
     scrollbar-width: none;

@@ -89,7 +89,7 @@ export default function BlogPosts(
                   {calculateReadingTime(post.content.split(" ").length)}
                 </div>
                 <div class="space-y-2">
-                  <h3 class="text-2xl">{post.title}</h3>
+                  <h3 class="font-subtitle text-2xl">{post.title}</h3>
                   <p class="text-base">{post.excerpt}</p>
                 </div>
                 <div class="flex flex-wrap gap-2">
