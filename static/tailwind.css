@@ -456,20 +456,19 @@ video {
 html {
   -webkit-tap-highlight-color: transparent;
 }
-
   /* Allow changing font family via CMS */
   html {
     font-family: var(--font-family);
   }
 
   /** Remove default styles from input[type=number] */
-  input[type=number]::-webkit-inner-spin-button,
-  input[type=number]::-webkit-outer-spin-button {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
 
-  input[type=number] {
+  input[type="number"] {
     -moz-appearance: textfield;
     -webkit-appearance: textfield;
             appearance: textfield;
@@ -2406,7 +2405,7 @@ input.tab:checked + .tab-content,
     background-color: black;
   }
 [data-dot] div .dot {
-    background-color: #E4E4E7;
+    background-color: #e4e4e7;
   }
 .sr-only {
   position: absolute;
