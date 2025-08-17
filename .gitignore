@@ -64,7 +64,6 @@ yarn-error.log
 .yarn-integrity
 
 dist/
-server/
 
 import_map.local.json
 deno.lock
