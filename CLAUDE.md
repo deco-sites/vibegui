@@ -13,7 +13,7 @@ npm start
 bun run dev
 ```
 
-The server should always run on port **3000** for consistency. If needed, modify `main.ts` to hardcode the port.
+The server should always run on port **8787** for consistency. If needed, modify `main.ts` to hardcode the port.
 
 ### MCP Connection
 
@@ -85,7 +85,7 @@ Use the MCP tools to:
 cd vibegui-internal/server
 npm run dev
 ```
-Server will run on port 3000 with hot reload enabled.
+Server will run on port 8787 with hot reload enabled.
 
 ### Step 2: Connect MCP in Claude Code
 Use the `/mcp` slash command to connect to the MCP server:

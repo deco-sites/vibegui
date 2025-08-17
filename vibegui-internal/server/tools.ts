@@ -108,7 +108,7 @@ export const createGenerateTodoWithAITool = (env: Env) =>
       const db = await getDb(env);
       const generatedTodo = await env.DECO_CHAT_WORKSPACE_API
         .AI_GENERATE_OBJECT({
-          model: "openai:gpt-4.1-mini",
+          model: "openai:gpt-oss-120b",
           messages: [
             {
               role: "user",
@@ -266,7 +266,7 @@ export const createDetectLanguageTool = (env: Env) =>
     }),
     execute: async ({ context }) => {
       const result = await env.DECO_CHAT_WORKSPACE_API.AI_GENERATE_OBJECT({
-        model: "openai:gpt-4o-mini",
+        model: "openai:gpt-oss-120b",
         messages: [
           {
             role: "system",
@@ -325,7 +325,7 @@ export const createGenerateTitleExcerptTool = (env: Env) =>
       const prompt = languagePrompts[context.detectedLanguage as keyof typeof languagePrompts] || languagePrompts.en;
 
       const result = await env.DECO_CHAT_WORKSPACE_API.AI_GENERATE_OBJECT({
-        model: "openai:gpt-4o-mini",
+        model: "openai:gpt-oss-120b",
         messages: [
           {
             role: "system",
@@ -464,6 +464,184 @@ export const createListBlogPostsTool = (env: Env) =>
     },
   });
 
+export const createListBlogPostIdsOnlyTool = (env: Env) =>
+  createTool({
+    id: "LIST_BLOG_POST_IDS_ONLY",
+    description: "List blog post IDs only - minimal data for clean workflow status",
+    inputSchema: z.object({
+      limit: z.number().optional(),
+      offset: z.number().optional(),
+    }),
+    outputSchema: z.object({
+      postIds: z.array(z.object({
+        id: z.string(),
+        hasContent: z.boolean(),
+      })),
+      total: z.number(),
+    }),
+    execute: async ({ context }) => {
+      const db = await getDb(env);
+
+      // Get only post IDs and content existence - no titles, excerpts, or other metadata
+      const posts = await db.select({
+        id: postsTable.id,
+        content: postsTable.content,
+      })
+      .from(postsTable)
+      .limit(context.limit || 100)
+      .offset(context.offset || 0);
+
+      return {
+        postIds: posts.map(post => ({
+          id: post.id,
+          hasContent: !!post.content && post.content.trim().length > 0,
+        })),
+        total: posts.length,
+      };
+    },
+  });
+
+export const createGetSingleBlogPostTool = (env: Env) =>
+  createTool({
+    id: "GET_SINGLE_BLOG_POST",
+    description: "Get a single blog post by ID with full content and metadata",
+    inputSchema: z.object({
+      postId: z.string(),
+    }),
+    outputSchema: z.object({
+      post: z.object({
+        id: z.string(),
+        originalSlug: z.string(),
+        content: z.string(),
+        originalLanguage: z.string(),
+        title: z.string().nullable(),
+        excerpt: z.string().nullable(),
+        authorName: z.string().nullable(),
+        publishedDate: z.string().nullable(),
+        interactionCount: z.number(),
+        createdAt: z.string().nullable(),
+      }).nullable(),
+    }),
+    execute: async ({ context }) => {
+      const db = await getDb(env);
+
+      // Get the specific post with its original language metadata
+      const posts = await db.select({
+        id: postsTable.id,
+        originalSlug: postsTable.originalSlug,
+        content: postsTable.content,
+        originalLanguage: postsTable.originalLanguage,
+        title: postMetadataTable.title,
+        excerpt: postMetadataTable.excerpt,
+        authorName: postsTable.authorName,
+        publishedDate: postsTable.publishedDate,
+        interactionCount: postsTable.interactionCount,
+        createdAt: postsTable.createdAt,
+      })
+      .from(postsTable)
+      .leftJoin(
+        postMetadataTable, 
+        eq(postsTable.id, postMetadataTable.postId)
+      )
+      .where(eq(postsTable.id, context.postId))
+      .limit(1);
+
+      if (posts.length === 0) {
+        return { post: null };
+      }
+
+      return { post: posts[0] };
+    },
+  });
+
+export const createEditBlogPostTool = (env: Env) =>
+  createTool({
+    id: "EDIT_BLOG_POST",
+    description: "Update blog post title and excerpt",
+    inputSchema: z.object({
+      postId: z.string(),
+      languageCode: z.string(),
+      title: z.string(),
+      excerpt: z.string(),
+    }),
+    outputSchema: z.object({
+      success: z.boolean(),
+      updatedPost: z.object({
+        id: z.string(),
+        title: z.string(),
+        excerpt: z.string(),
+        languageCode: z.string(),
+      }),
+    }),
+    execute: async ({ context }) => {
+      const db = await getDb(env);
+
+      try {
+        // Update the post metadata
+        await db.update(postMetadataTable)
+          .set({ 
+            title: context.title,
+            excerpt: context.excerpt,
+          })
+          .where(eq(postMetadataTable.postId, context.postId));
+
+        return {
+          success: true,
+          updatedPost: {
+            id: context.postId,
+            title: context.title,
+            excerpt: context.excerpt,
+            languageCode: context.languageCode,
+          },
+        };
+      } catch (error) {
+        console.error("Failed to edit blog post:", error);
+        throw new Error(`Failed to edit blog post: ${error}`);
+      }
+    },
+  });
+
+export const createDeleteBlogPostTool = (env: Env) =>
+  createTool({
+    id: "DELETE_BLOG_POST",
+    description: "Delete a blog post and all its metadata/translations",
+    inputSchema: z.object({
+      postId: z.string(),
+    }),
+    outputSchema: z.object({
+      success: z.boolean(),
+      deletedPostId: z.string(),
+      deletedItems: z.object({
+        post: z.boolean(),
+        metadata: z.boolean(),
+        translations: z.boolean(),
+      }),
+    }),
+    execute: async ({ context }) => {
+      const db = await getDb(env);
+
+      try {
+        // Delete in order: translations, metadata, then main post
+        await db.delete(postTranslationsTable).where(eq(postTranslationsTable.postId, context.postId));
+        await db.delete(postMetadataTable).where(eq(postMetadataTable.postId, context.postId));
+        await db.delete(postsTable).where(eq(postsTable.id, context.postId));
+
+        return {
+          success: true,
+          deletedPostId: context.postId,
+          deletedItems: {
+            post: true,
+            metadata: true,
+            translations: true,
+          },
+        };
+      } catch (error) {
+        console.error("Failed to delete blog post:", error);
+        throw new Error(`Failed to delete blog post: ${error}`);
+      }
+    },
+  });
+
 // ========== TRANSLATION RUNTIME TOOLS ==========
 
 const TRANSLATION_SCHEMA = {
@@ -572,7 +750,7 @@ ORIGINAL CONTENT: ${context.originalContent}
 Provide accurate, natural translations that read well in ${targetLang}.`;
 
       const result = await env.DECO_CHAT_WORKSPACE_API.AI_GENERATE_OBJECT({
-        model: "openai:gpt-4o",
+        model: "openai:gpt-oss-120b",
         messages: [
           {
             role: "system",
@@ -775,6 +953,7 @@ export const createListWorkflowRunsTool = (env: Env) =>
     },
   });
 
+
 export const tools = [
   createGetUserTool,
   createListTodosTool,
@@ -786,6 +965,10 @@ export const tools = [
   createGenerateTitleExcerptTool,
   createInsertBlogPostTool,
   createListBlogPostsTool,
+  createListBlogPostIdsOnlyTool,
+  createGetSingleBlogPostTool,
+  createEditBlogPostTool,
+  createDeleteBlogPostTool,
   // Translation runtime tools
   createCheckTranslationTool,
   createTranslateBlogPostTool,

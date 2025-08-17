@@ -6,7 +6,8 @@ compatibility_flags = [ "nodejs_compat" ]
 scope = "team-guilherme-rodrigues-3122"
 
 [dev]
-port = 3000
+port = 8787
+ip = "127.0.0.1"
 
 [assets]
 directory = "./view-build"

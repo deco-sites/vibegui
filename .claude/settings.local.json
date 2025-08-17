@@ -3,7 +3,11 @@
     "allow": [
       "Bash(find:*)",
       "Bash(ls:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "mcp__vibegui-blog__WORKFLOW_STATUS",
+      "mcp__vibegui-blog__DECO_CHAT_WORKFLOWS_START_CONSISTENCY_CHECK_BLOG_POSTS",
+      "mcp__vibegui-blog__LIST_BLOG_POSTS",
+      "mcp__vibegui-blog__DECO_CHAT_WORKFLOWS_START_SINGLE_POST_CONSISTENCY_CHECK"
     ],
     "deny": []
   }
