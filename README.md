@@ -1,4 +1,4 @@
-# Blog — deco.cx template 
+# Blog — deco.cx template  
 
 Welcome to your [deco.cx](https://deco.cx) site!
 
