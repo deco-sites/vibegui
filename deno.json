@@ -1,7 +1,7 @@
 {
   "imports": {
     "@deco/mcp": "jsr:@deco/mcp@0.7.3",
-    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.120.10/",
+    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.127.0-beta.3/",
     "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.114.13/",
     "$fresh/": "https://deno.land/x/fresh@1.7.3/",
     "@cliffy/prompt": "jsr:@cliffy/prompt@^1.0.0-rc.5",
@@ -32,14 +32,14 @@
     "preact-render-to-string": "npm:preact-render-to-string@6.4.2",
     "simple-git": "npm:simple-git@^3.25.0",
     "https://esm.sh/*preact-render-to-string@6.3.1": "npm:preact-render-to-string@6.4.2",
-    "@deco/deco": "jsr:@deco/deco@1.120.10",
+    "@deco/deco": "jsr:@deco/deco@1.127.0-beta.3",
     "site/": "./",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.2",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1",
     "daisyui": "npm:daisyui@4.4.19",
     "preact": "npm:preact@10.23.1",
     "std/": "https://deno.land/std@0.204.0/",
-    "@deco/dev": "jsr:@deco/dev@1.120.10"
+    "@deco/dev": "jsr:@deco/dev@1.127.0-beta.3"
   },
   "tasks": {
     "start": "deno run -A --unstable-http --env https://deco.cx/run -- deno task dev",
