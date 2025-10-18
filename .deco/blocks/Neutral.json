@@ -15,18 +15,23 @@
     "--tab-radius": "0.5rem"
   },
   "mainColors": {
-    "base-100": "#ffffff",
-    "primary": "#171717",
-    "secondary": "#c7c7c7",
-    "tertiary": "#404040",
-    "neutral": "#333333",
-    "success": "#008060",
-    "warning": "#ffc453",
-    "error": "#d82c0d",
-    "info": "#2e72d2"
+    "base-100": "#f0fdf4",
+    "primary": "#166534",
+    "secondary": "#86efac",
+    "tertiary": "#22c55e",
+    "neutral": "#374151",
+    "success": "#10b981",
+    "warning": "#f59e0b",
+    "error": "#ef4444",
+    "info": "#06b6d4"
   },
   "font": {
     "__resolveType": "website/loaders/fonts/googleFonts.ts",
-    "fonts": [{ "variations": [], "family": "Albert Sans" }]
+    "fonts": [
+      {
+        "variations": [],
+        "family": "Albert Sans"
+      }
+    ]
   }
 }

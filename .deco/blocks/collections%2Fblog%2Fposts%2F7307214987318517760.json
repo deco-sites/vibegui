@@ -21,7 +21,18 @@
     "excerpt": "Why the future of software is about giving instructions to AI agents, not writing explicit code, and how we’re enabling that shift.",
     "interactionStatistic": {
       "@type": "InteractionCounter",
-      "userInteractionCount": 126
-    }
+      "userInteractionCount": 126,
+      "image": null,
+      "video": null
+    },
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": []
   }
 }

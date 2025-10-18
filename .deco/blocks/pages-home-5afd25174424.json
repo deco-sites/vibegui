@@ -6,38 +6,9 @@
       "__resolveType": "Header"
     },
     {
-      "__resolveType": "site/sections/Theme/Theme.tsx",
-      "colorScheme": "any",
-      "mainColors": {
-        "base-100": "#ffffff",
-        "primary": "#10b981",
-        "secondary": "#065f5b",
-        "tertiary": "#10b981",
-        "neutral": "#111827",
-        "success": "#16a34a",
-        "warning": "#f59e0b",
-        "error": "#ef4444",
-        "info": "#06b6d4"
-      },
-      "font": {
-        "__resolveType": "website/loaders/fonts/googleFonts.ts",
-        "fonts": [
-          { "family": "Pixelify Sans", "variations": [{ "weight": "700" }] },
-          { "family": "Crimson Pro", "variations": [{ "weight": "600" }] }
-        ]
-      }
-    },
-    {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Context is everything</p>",
-      "description": "Distinctions on vibe living in the post-AI era."
-    },
-    {
-      "__resolveType": "site/sections/BlogPosts.tsx",
-      "posts": {
-        "__resolveType": "blog/loaders/BlogpostList.ts",
-        "count": 100
-      }
+      "title": "<p>You are powerful</p>",
+      "description": "The question is: are you getting what you want out of life?"
     },
     {
       "__resolveType": "Footer"
